@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Card, CardHeader, CardBody } from 'reactstrap';
 
 function KycCapability() {
   return (
-    <div>
-        <h2>KYC Capability</h2>
-        <h3>Hello 1</h3>
-    </div>
-  )
+    <Card className='w-100 mt-2' color='danger' outline>
+      <CardHeader>KYC Capability</CardHeader>
+      <CardBody>Some Content</CardBody>
+    </Card>
+  );
 }
 
-export default KycCapability
+export default KycCapability;
